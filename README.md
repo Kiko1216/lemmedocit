@@ -9,3 +9,4 @@ MK DOCS WORKFLOW
 5. go to gh settings - pages and set a new page, make the repo public
 6. then mkdocs build; git add .; git commit -m "change"; git push; mkdocs gh-deploy
 mkdocs build is for custom theme
+do `git pull` after any changes are made or after merging the changes to work on updated code
