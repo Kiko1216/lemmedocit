@@ -15,3 +15,4 @@ do `git pull` after any changes are made or after merging the changes to work on
 clone (start) - status - make the change - add . - commit - pull (op: maybe merge conflicts-resolve) - push - git log
 pull (already existing project) - status - make the change - add . - commit - pull (op: maybe merge conflicts-resolve) - push - git log *quit git log by typing q*
 dfdfgdfgdfg
+change
