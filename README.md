@@ -12,3 +12,4 @@ mkdocs build is for custom theme
 do `git pull` after any changes are made or after merging the changes to work on updated code
 
 janez
+matjaž
