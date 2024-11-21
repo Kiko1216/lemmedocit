@@ -11,7 +11,6 @@ MK DOCS WORKFLOW
 mkdocs build is for custom theme
 do `git pull` after any changes are made or after merging the changes to work on updated code
 
-janez 3
-matjaž 2
-janez
-matjaž
+
+clone (start) - status - make the change - add . - commit - pull (op: maybe merge conflicts-resolve) - push
+pull (already existing project) - status - make the change - add . - commit - pull (op: maybe merge conflicts-resolve) - push
