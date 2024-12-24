@@ -2,7 +2,7 @@ site_name:  Site
 nav:
   - Home: index.md
   - About: about.md
-  - Movies: mymovies.md
+  
 theme:
   name: material
 
