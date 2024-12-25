@@ -7,15 +7,15 @@ In this space, you'll find my opinion pieces and personal learnings. Read on if 
 Hi there! My name is Khushi Sharma. I've been a technical writer for the past three wonderful years at Bloomreach. 
 
 ## Where I live 
-I live in Slovenia, but I'm originally from Delhi, India. How I landed here is a whole different legend that needs its own storytime. 
-
-*Spoiler: It was for❤️*
+I live in Slovenia, but I'm originally from Delhi, India. How I landed here is a whole different legend that needs its own storytime.(*Spoiler: It was for❤️*)
 
 ## What I love 
 I've been in love with writing for as long as I can remember. It began with writing alliterative romantic poems under a secret pen name. This love eventually translated into work. 
 
 ## Finding the right writing fit
 I freelanced as a writer during college. I also volunteered at a local non-profit to teach English. 
+
+<img src="img/volunteeringatngo.png" alt="Volunteering at NGO" width="auto" height="auto">
 
 After that, I had a brief stint at copywriting. This was an exploratory phase where I wanted to know where I fit in as a writer. Clearly, it wasn't my calling. 
 
