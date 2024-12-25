@@ -15,7 +15,8 @@ I've been in love with writing for as long as I can remember. It began with writ
 ## Finding the right writing fit
 I freelanced as a writer during college. I also volunteered at a local non-profit to teach English. 
 
-<img src="docs/img/volunteering-at-ngo.png" alt="Volunteering at NGO" width="auto" height="auto">
+![Volunteering at NGO](img/teaching-english-at-ngo.png)
+
 
 After that, I had a brief stint at copywriting. This was an exploratory phase where I wanted to know where I fit in as a writer. Clearly, it wasn't my calling. 
 
