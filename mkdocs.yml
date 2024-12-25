@@ -5,7 +5,7 @@ nav:
 
 theme:
   name: material
-  logo: img/cat.jpg
+  logo: img/logo.png
   favicon: img/favicon.ico
 
 plugins:
