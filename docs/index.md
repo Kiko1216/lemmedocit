@@ -1,2 +1,2 @@
-# Khushi's Blog
+# **Lemme Doc It Blog**
 
