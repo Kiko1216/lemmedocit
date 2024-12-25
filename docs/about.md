@@ -6,6 +6,8 @@ In this space, you'll find my opinion pieces and personal learnings. Read on if 
 ## Who am I
 Hi there! My name is Khushi Sharma. I've been a technical writer for the past three wonderful years at Bloomreach. 
 
+![Khushi Sharma image](img/my-image.png)
+
 ## Where I live 
 I live in Slovenia, but I'm originally from Delhi, India. How I landed here is a whole different legend that needs its own storytime.(*Spoiler: It was for❤️*)
 
