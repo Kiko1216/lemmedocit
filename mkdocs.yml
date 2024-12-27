@@ -2,6 +2,8 @@ site_name:  Lemme Doc It
 nav:
   - Home: index.md
   - About: about.md
+  - Blog:
+    - blog/index.md
 
 theme:
   name: material
