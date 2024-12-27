@@ -1,9 +1,9 @@
 site_name:  Lemme Doc It
 nav:
-  - Home: index.md
   - About: about.md
   - Blog:
     - blog/index.md
+  - Contact: contact.md
 
 theme:
   name: material
@@ -13,4 +13,7 @@ theme:
 plugins:
   - search
 
-
+plugins:
+  - blog:
+      archive: false
+      post_excerpt: required
