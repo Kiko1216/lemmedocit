@@ -1,7 +1,6 @@
 site_name:  Lemme Doc It
 nav:
-  - Home: index.md
-  - About: about.md
+  - About: index.md
   - Blog:
     - blog/index.md
   - Contact: contact.md

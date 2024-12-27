@@ -1,219 +1,35 @@
- </div>
-    
-    
-      
-  
-<header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Lemme Doc It" class="md-header__button md-logo" aria-label="Lemme Doc It" data-md-component="logo">
-      
-  <img src="img/logo.png" alt="logo">
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            Lemme Doc It
-          </span>
-        </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
-            
-              Home
-            
-          </span>
-        </div>
-      </div>
-    </div>
-    
-    
-      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
-    
-    
-    
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-    
-    
-  </nav>
-  
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
-        
-          
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
-            
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href="." title="Lemme Doc It" class="md-nav__button md-logo" aria-label="Lemme Doc It" data-md-component="logo">
-      
-  <img src="img/logo.png" alt="logo">
-    </a>
-    Lemme Doc It
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Home
-  </span>
-  
-      </a>
-      
-    </li>
-  
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="about/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    About
-  </span>
-  
-      </a>
-    </li>
+# **Welcome to Lemme Doc It**
 
+After dabbling in the world of technical writing for some time, I decided to pen down my thoughts. In this space, you'll find my opinion pieces and personal learnings. Read on if you're interested in knowing me. 
 
+## Who am I
+Hiya! My name is Khushi Sharma. I've been a technical writer for the past three wonderful years at [Bloomreach](https://www.bloomreach.com/en). 
 
+![Khushi Sharma image](img/my-image.jpg)
 
+## Where I live 
+I live in Slovenia, but I'm originally from Delhi, India. How I landed here is a whole different legend that needs its own storytime. (*Spoiler: It was for❤️*)
 
+## What I love 
+I've been in love with writing for as long as I can remember. It began with writing alliterative romantic poems under a secret pen name. This love eventually translated into work. 
 
+## Finding the right writing fit
+I freelanced as a writer during college. I also volunteered at a local non-profit to teach English. 
 
+![Volunteering at NGO](img/teaching-english-at-ngo.png)
 
+After that, I had a brief stint at copywriting. This was an exploratory phase where I wanted to know where I fit in as a writer. Clearly, it wasn't my calling. 
 
+## Discovering technical writing 
+It was by sheer chance that I discovered technical writing while reading a tech blog. I was instantly *obsessed*. 
 
+Why, you might ask? Well, I've also been a bit of a tech geek. As a 90s kid, I've indulged in all the technological eras: from the PC revolution to the Gen AI boom. 
 
+My first real interaction with a computer was when I was about 7. I vividly remember the rush I felt dragging the cursor to draw a circle in Microsoft Paint. Years later, I felt a similar rush bootstrapping a website using HTML and CSS in Notepad. 
 
+You see, technical writing hits the sweet spot for me. It combines my love for writing with my ever-growing fascination with technology. 
 
-    <li class="md-nav__item md-nav__item--nested">
+To pivot from copywriting, I honed my technical skills and secured my first tech writer role at Bloomreach. It was a challenge but a savory one!
 
+And here I am, writing a blog on technical writing. Life comes full circle, doesn't it 😄
 
-
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-
-
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-
-
-  <span class="md-ellipsis">
-    Blog
-  </span>
-
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            Blog
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-
-
-
-
-
-
-
-    <li class="md-nav__item">
-      <a href="blog/index.md" class="md-nav__link">
-
-
-  <span class="md-ellipsis">
-    None
-  </span>
-
-
-      </a>
-    </li>
-
-
-
-
-          </ul>
-        </nav>
-
-    </li>
-
-
-
-  </ul>
-</nav>
-                  </div>
