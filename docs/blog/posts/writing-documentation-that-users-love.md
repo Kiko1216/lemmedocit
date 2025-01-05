@@ -39,7 +39,7 @@ These 5 C's pretty much capture the essence of docs that users rave about:
 
 `Tl; Dr: Keep the docs simple, short, easy to follow, exhaustive, and relevant to audiences’ needs.`
 
-## 3. **Ask for feedback and iterate** 
+## 3. Ask for feedback and iterate 
 
 Writing documentation without feedback is like throwing darts but there's no dartboard. Darts are landing somewhere you don't know. Feedback helps in confirming your hypothesis whether users actually love your documentation.
 

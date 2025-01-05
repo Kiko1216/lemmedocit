@@ -9,8 +9,29 @@ theme:
   name: material
   logo: img/logo.png
   favicon: img/favicon.ico
+  features:
+    - navigation.footer
   font:
     text: Montserrat
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      accent: amber
+      primary: custom
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      accent: amber
+      primary: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra_css:
+    - stylesheets/extra.css
 
 plugins:
   - search
@@ -19,3 +40,10 @@ plugins:
   - blog:
       archive: false
       post_excerpt: required
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Kiko1216/lemmedocit
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/khushi-sharma/
