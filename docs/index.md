@@ -1,6 +1,6 @@
 # **Welcome to Lemme Doc It**
 
-After dabbling in the world of technical writing for some time, I decided to pen down my thoughts. In this space, you'll find my opinion pieces and personal learnings. Read on if you're interested in knowing me. 
+After dabbling in the world of technical writing for some time, I decided to pen down my thoughts. In this space, you'll find my [opinion pieces and personal learnings](blog/index.md). Read on if you're interested in knowing me. 
 
 ## Who am I
 Hiya! My name is Khushi Sharma. I've been a technical writer for the past three wonderful years at [Bloomreach](https://www.bloomreach.com/en). 

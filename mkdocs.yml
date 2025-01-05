@@ -33,10 +33,9 @@ theme:
 extra_css:
     - stylesheets/extra.css
 
-plugins:
-  - search
 
 plugins:
+  - search
   - blog:
       archive: false
       post_excerpt: required
@@ -47,3 +46,8 @@ extra:
       link: https://github.com/Kiko1216/lemmedocit
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/khushi-sharma/
+
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
