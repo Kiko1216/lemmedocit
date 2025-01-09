@@ -10,12 +10,12 @@ head:
   - name: viewport
     content: width=device-width, initial-scale=1.0
   - name: robots
-    content: follow
-  - name: google-site-verification
-    content: SBUMPqcUI7CMJz6F-hzV2kLs_t9BZmQyLsOFmnP3Iuo    
+    content: follow    
 ---
 
-
+<head>
+<meta name="google-site-verification" content="SBUMPqcUI7CMJz6F-hzV2kLs_t9BZmQyLsOFmnP3Iuo" />
+</head>
 
 # **Lemme Doc It - Technical Writing Blog**
 
