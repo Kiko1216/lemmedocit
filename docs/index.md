@@ -1,6 +1,21 @@
-# **Welcome to Lemme Doc It**
+---
+head:
+  - charset: UTF-8
+  - name: title
+    content: Technical writing blog Lemme Doc It
+  - name: description
+    content: Technical writing blog by Khushi Sharma that covers various opinion pieces and learnings about crafting quality documentation.
+  - name: author
+    content: Khushi Sharma
+  - name: viewport
+    content: width=device-width, initial-scale=1.0
+  - name: robots
+    content: follow
+---
 
-After dabbling in the world of technical writing for some time, I decided to pen down my thoughts. In this space, you'll find my [opinion pieces and personal learnings](blog/index.md). Read on if you're interested in knowing me. 
+# **Lemme Doc It - Technical Writing Blog**
+
+Welcome to Lemme Doc It! After dabbling in the world of technical writing for some time, I decided to pen down my thoughts. In this space, you'll find my [opinion pieces and personal learnings](blog/index.md). Read on if you're interested in knowing me. 
 
 ## Who am I
 Hiya! My name is Khushi Sharma. I've been a technical writer for the past three wonderful years at [Bloomreach](https://www.bloomreach.com/en). 
@@ -15,8 +30,6 @@ I've been in love with writing for as long as I can remember. It began with writ
 
 ## Finding the right writing fit
 I freelanced as a writer during college. I also volunteered at a local non-profit to teach English. 
-
-![Volunteering at NGO](img/teaching-english-at-ngo.png)
 
 After that, I had a brief stint at copywriting. This was an exploratory phase where I wanted to know where I fit in as a writer. Clearly, it wasn't my calling. 
 

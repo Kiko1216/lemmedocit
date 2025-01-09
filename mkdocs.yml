@@ -1,4 +1,11 @@
 site_name:  Lemme Doc It
+site_author: Khushi Sharma
+site_description: Technical writing blog by Khushi Sharma that covers various opinion pieces and learnings about crafting quality documentation.
+site_url: https://kiko1216.github.io/lemmedocit/
+repo_url: https://github.com/Kiko1216/lemmedocit
+repo_name: lemmedocit
+
+
 nav:
   - About: index.md
   - Blog:
@@ -46,7 +53,9 @@ extra:
       link: https://github.com/Kiko1216/lemmedocit
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/khushi-sharma/
-
+  html_meta:
+    - name: robots
+      content: index, follow
 
 markdown_extensions:
   - toc:
