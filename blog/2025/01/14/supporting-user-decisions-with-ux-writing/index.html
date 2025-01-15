@@ -530,7 +530,12 @@
 <p>A colleague shared an incident where some sales order cancellation emails were sent out mysteriously, and the client had no idea what triggered this.</p>
 <p>After careful debugging, my colleague figured it was most likely a misclick by a user.</p>
 <p>I probed further out of curiosity. Turns out, the user made the blunder on encountering the <a href="https://www.odoo.com/">Odoo</a> sales order cancellation modal below.</p>
-<p><a class="glightbox" href="../../../../../img/cancel-order-original.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Odoo sales order cancellation modal" src="../../../../../img/cancel-order-original.png" /></a></p>
+<figure>
+    <img src="../../img/cancel-order-original.png"
+         alt="Odoo sales order cancellation modal">
+    <figcaption>Odoo sales order cancellation modal.</figcaption>
+</figure>
+
 <h2 id="identifying-issues"><strong>Identifying issues</strong><a class="headerlink" href="#identifying-issues" title="Permanent link">#</a></h2>
 <p>When I looked at the modal closely, I could hypothesize why this resulted in a mistake.</p>
 <p>The UX copy isn't clear and misses important details. Here are some reasons why:</p>
@@ -546,18 +551,28 @@
 <p>I asked my colleague about the actual result of each option. Based on this knowledge and personal UX writing experience, I revised the copy and added a few supplementary interface elements.</p>
 <h3 id="how-is-this-better"><strong>How is this better?</strong><a class="headerlink" href="#how-is-this-better" title="Permanent link">#</a></h3>
 <ol>
-<li>
-<p>The copy (next to the new checkbox) now clearly indicates the option to send a cancellation mail. This opens a dedicated panel to customize the mail.<a class="glightbox" href="../../../../../img/cancel-order-new.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Odoo sales order cancellation modal with revised copy" src="../../../../../img/cancel-order-new.png" /></a></p>
-</li>
-<li>
-<p>The decision-making flow is now more intuitive and less overwhelming.</p>
-<ul>
+<li>The copy (next to the new checkbox) now clearly indicates the option to send a cancellation mail. This opens a dedicated panel to customize the mail.</li>
+</ol>
+<figure>
+    <img src="../../img/cancel-order-new.png"
+         alt="Odoo sales order cancellation modal with improved copy and new UI elements.">
+    <figcaption>Odoo sales order cancellation modal with improved copy.</figcaption>
+</figure>
+
+<ol>
+<li>The decision-making flow is now more intuitive and less overwhelming.<ul>
 <li>If the user wants to simply cancel the order, they can click “Cancel order”, without thinking about the mail.</li>
-<li>If the user wants to cancel <em>and</em> send a sales order cancellation mail, the copy now indicates the combined option to “Cancel order and send mail”.<a class="glightbox" href="../../../../../img/cancel-mail-new.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Odoo sales order cancellation modal with mail option" src="../../../../../img/cancel-mail-new.png" /></a></li>
+<li>If the user wants to cancel <em>and</em> send a sales order cancellation mail, the copy now indicates the combined option to “Cancel order and send mail”.
+<figure>
+    <img src="../../img/cancel-mail-new.png"
+         alt="Odoo sales order cancellation modal with mail send option.">
+    <figcaption>Odoo sales order cancellation modal with mail send option.</figcaption>
+</figure>
+The result of each action is clearly communicated.</li>
 </ul>
-<p>The result of each action is clearly communicated.</p>
 </li>
 </ol>
+<p><br></p>
 <blockquote>
 <p><em>Disclaimer: This is far from perfect, but I feel it's an improvement over the initial experience.</em></p>
 </blockquote>
