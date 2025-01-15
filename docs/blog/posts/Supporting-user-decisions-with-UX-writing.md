@@ -29,9 +29,10 @@ After careful debugging, my colleague figured it was most likely a misclick by a
 
 I probed further out of curiosity. Turns out, the user made the blunder on encountering the [Odoo](https://www.odoo.com/) sales order cancellation modal below.
 
-<a class="glightbox" href="/lemmedocit/img/cancel-order-original.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><figure>
+<figure>
     <img src="/lemmedocit/img/cancel-order-original.png"
-         alt="Odoo sales order cancellation modal">
+         alt="Odoo sales order cancellation modal"
+         class="glightbox">
     <figcaption>Odoo sales order cancellation modal.</figcaption>
 </figure></a>
 
