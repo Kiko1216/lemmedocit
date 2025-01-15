@@ -1,4 +1,16 @@
 ---
+head:
+  - charset: UTF-8
+  - name: title
+    content: Supporting user decisions with UX writing
+  - name: description
+    content: Let's explores how user's decision-making can be improved with clear and actionable UX writing.
+  - name: author
+    content: Khushi Sharma
+  - name: viewport
+    content: width=device-width, initial-scale=1.0
+  - name: robots
+    content: follow
 date:
   created: 2025-01-14
 ---
@@ -27,7 +39,7 @@ The UX copy isn't clear and misses important details. Here are some reasons why:
 
 1. The copy doesn't specify if the users have the *option* of sending a custom cancellation mail. The knowledge of this option seems assumed. I was confused as to why a mail template appears in a cancellation modal. This wouldn't result in a smooth user experience for a new user. 
 
-2. “Send and cancel”, “Cancel”, and “Discard” can imply the same meaning. The result of each option isn't also well defined. The cognitive load due to seemingly similar options makes it difficult for the user to make the right decision.
+2. “Send and cancel”, “Cancel”, and “Discard” can imply the same meaning. The result of each option isn't also well defined. The [cognitive load](https://lawsofux.com/cognitive-load/) due to seemingly similar options makes it difficult for the user to make the right decision.
 
 ## **Improvement suggestions**
 
@@ -35,7 +47,7 @@ I asked my colleague about the actual result of each option. Based on this knowl
 
 ### **How is this better?**
 
-1. The copy (next to the checkbox) now clearly indicates the option to send a cancellation mail. This opens a dedicated panel to customize the mail.![Odoo sales order cancellation modal with revised copy](../../img/cancel-order-new.png)
+1. The copy (next to the new checkbox) now clearly indicates the option to send a cancellation mail. This opens a dedicated panel to customize the mail.![Odoo sales order cancellation modal with revised copy](../../img/cancel-order-new.png)
 
 
 2. The decision-making flow is now more intuitive and less overwhelming.
