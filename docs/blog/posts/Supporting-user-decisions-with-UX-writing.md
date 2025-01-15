@@ -29,7 +29,11 @@ After careful debugging, my colleague figured it was most likely a misclick by a
 
 I probed further out of curiosity. Turns out, the user made the blunder on encountering the [Odoo](https://www.odoo.com/) sales order cancellation modal below.
 
-![Odoo sales order cancellation modal](../../img/cancel-order-original.png)
+<figure>
+    <img src="../../img/cancel-order-original.png"
+         alt="Odoo sales order cancellation modal">
+    <figcaption>Odoo sales order cancellation modal.</figcaption>
+</figure>
 
 ## **Identifying issues**
 
@@ -47,14 +51,25 @@ I asked my colleague about the actual result of each option. Based on this knowl
 
 ### **How is this better?**
 
-1. The copy (next to the new checkbox) now clearly indicates the option to send a cancellation mail. This opens a dedicated panel to customize the mail.![Odoo sales order cancellation modal with revised copy](../../img/cancel-order-new.png)
+1. The copy (next to the new checkbox) now clearly indicates the option to send a cancellation mail. This opens a dedicated panel to customize the mail.
+<figure>
+    <img src="../../img/cancel-order-new.png"
+         alt="Odoo sales order cancellation modal with improved copy and new UI elements.">
+    <figcaption>Odoo sales order cancellation modal with improved copy.</figcaption>
+</figure>
 
 
 2. The decision-making flow is now more intuitive and less overwhelming.
     * If the user wants to simply cancel the order, they can click “Cancel order”, without thinking about the mail.
-    * If the user wants to cancel *and* send a sales order cancellation mail, the copy now indicates the combined option to “Cancel order and send mail”.![Odoo sales order cancellation modal with mail option](../../img/cancel-mail-new.png)
-    
+    * If the user wants to cancel *and* send a sales order cancellation mail, the copy now indicates the combined option to “Cancel order and send mail”.
+    <figure>
+        <img src="../../img/cancel-mail-new.png"
+             alt="Odoo sales order cancellation modal with mail send option.">
+        <figcaption>Odoo sales order cancellation modal with mail send option.</figcaption>
+    </figure>
     The result of each action is clearly communicated.
+
+<br>
 
 >*Disclaimer: This is far from perfect, but I feel it's an improvement over the initial experience.*
 
