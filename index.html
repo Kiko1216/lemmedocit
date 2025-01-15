@@ -62,7 +62,16 @@
   <meta name="google-site-verification" content="SBUMPqcUI7CMJz6F-hzV2kLs_t9BZmQyLsOFmnP3Iuo" />
   <link rel="shortcut icon" type="image/x-icon" href="/lemmedocit/img/favicon.ico"> 
 
-  </head>
+   <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -532,12 +541,21 @@
 
 <p><head>
 <meta name="google-site-verification" content="SBUMPqcUI7CMJz6F-hzV2kLs_t9BZmQyLsOFmnP3Iuo" />
-</head></p>
+ <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="assets/javascripts/glightbox.min.js"></script></head></p>
 <h1 id="lemme-doc-it-technical-writing-blog"><strong>Lemme Doc It - Technical Writing Blog</strong><a class="headerlink" href="#lemme-doc-it-technical-writing-blog" title="Permanent link">#</a></h1>
 <p>Welcome to Lemme Doc It! After dabbling in the world of technical writing for some time, I decided to pen down my thoughts. In this space, you'll find my <a href="blog/">opinion pieces and personal learnings</a>. Read on if you're interested in knowing me. </p>
 <h2 id="who-am-i">Who am I<a class="headerlink" href="#who-am-i" title="Permanent link">#</a></h2>
 <p>Hiya! My name is Khushi Sharma. I've been a technical writer for the past three wonderful years at <a href="https://www.bloomreach.com/en">Bloomreach</a>. </p>
-<p><img alt="Khushi Sharma image" src="img/my-image.jpg" /></p>
+<p><a class="glightbox" href="img/my-image.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Khushi Sharma image" src="img/my-image.jpg" /></a></p>
 <h2 id="where-i-live">Where I live<a class="headerlink" href="#where-i-live" title="Permanent link">#</a></h2>
 <p>I live in Slovenia, but I'm originally from Delhi, India. How I landed here is a whole different legend that needs its own storytime. (<em>Spoiler: It was for❤️</em>)</p>
 <h2 id="what-i-love">What I love<a class="headerlink" href="#what-i-love" title="Permanent link">#</a></h2>
@@ -657,5 +675,7 @@
       <script src="assets/javascripts/bundle.081f42fc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

@@ -62,7 +62,16 @@
   <meta name="google-site-verification" content="SBUMPqcUI7CMJz6F-hzV2kLs_t9BZmQyLsOFmnP3Iuo" />
   <link rel="shortcut icon" type="image/x-icon" href="/lemmedocit/img/favicon.ico"> 
 
-  </head>
+   <link href="../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -490,7 +499,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg>
                           <span class="md-ellipsis">
                             
-                              2 min read
+                              3 min read
                             
                           </span>
                         </div>
@@ -520,8 +529,8 @@
 <h2 id="storytime"><strong>Storytime</strong><a class="headerlink" href="#storytime" title="Permanent link">#</a></h2>
 <p>A colleague shared an incident where some sales order cancellation emails were sent out mysteriously, and the client had no idea what triggered this.</p>
 <p>After careful debugging, my colleague figured it was most likely a misclick by a user.</p>
-<p>I probed further out of curiosity. Turns out, the user made the blunder on encountering the Odoo sales order cancellation modal below.</p>
-<p><img alt="Odoo sales order cancellation modal" src="img/cancel-order-original.png" /></p>
+<p>I probed further out of curiosity. Turns out, the user made the blunder on encountering the <a href="https://www.odoo.com/">Odoo</a> sales order cancellation modal below.</p>
+<p><a class="glightbox" href="../../../../../img/cancel-order-original.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Odoo sales order cancellation modal" src="../../../../../img/cancel-order-original.png" /></a></p>
 <h2 id="identifying-issues"><strong>Identifying issues</strong><a class="headerlink" href="#identifying-issues" title="Permanent link">#</a></h2>
 <p>When I looked at the modal closely, I could hypothesize why this resulted in a mistake.</p>
 <p>The UX copy isn't clear and misses important details. Here are some reasons why:</p>
@@ -538,18 +547,20 @@
 <h3 id="how-is-this-better"><strong>How is this better?</strong><a class="headerlink" href="#how-is-this-better" title="Permanent link">#</a></h3>
 <ol>
 <li>
-<p>The copy (next to the checkbox) now clearly indicates the option to send a cancellation mail. This opens a dedicated panel to customize the mail.</p>
+<p>The copy (next to the checkbox) now clearly indicates the option to send a cancellation mail. This opens a dedicated panel to customize the mail.<a class="glightbox" href="../../../../../img/cancel-order-new.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Odoo sales order cancellation modal with revised copy" src="../../../../../img/cancel-order-new.png" /></a></p>
 </li>
 <li>
 <p>The decision-making flow is now more intuitive and less overwhelming.</p>
 <ul>
 <li>If the user wants to simply cancel the order, they can click “Cancel order”, without thinking about the mail.</li>
-<li>If the user wants to cancel <em>and</em> send a cancellation mail, the copy now indicates the combined option to “Cancel order and send mail”.</li>
+<li>If the user wants to cancel <em>and</em> send a sales order cancellation mail, the copy now indicates the combined option to “Cancel order and send mail”.<a class="glightbox" href="../../../../../img/cancel-mail-new.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Odoo sales order cancellation modal with mail option" src="../../../../../img/cancel-mail-new.png" /></a></li>
 </ul>
 <p>The result of each action is clearly communicated.</p>
 </li>
 </ol>
+<blockquote>
 <p><em>Disclaimer: This is far from perfect, but I feel it's an improvement over the initial experience.</em></p>
+</blockquote>
 <h2 id="takeaway"><strong>Takeaway</strong><a class="headerlink" href="#takeaway" title="Permanent link">#</a></h2>
 <p>My takeaway is that, more often than not, the user's experience can always be improved for easy and error-free decision-making.</p>
 
@@ -661,5 +672,7 @@
       <script src="../../../../../assets/javascripts/bundle.081f42fc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
