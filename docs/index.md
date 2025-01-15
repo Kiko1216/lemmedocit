@@ -27,7 +27,7 @@ Hiya! My name is Khushi Sharma. I've been a technical writer for the past three 
 ![Khushi Sharma image](img/my-image.jpg)
 
 ## Where I live 
-I live in Slovenia, but I'm originally from Delhi, India. How I landed here is a whole different legend that needs its own storytime. (*Spoiler: It was for❤️*)
+I live in Slovenia, but I'm originally from Delhi, India.
 
 ## What I love 
 I've been in love with writing for as long as I can remember. It began with writing alliterative romantic poems under a secret pen name. This love eventually translated into work. 
