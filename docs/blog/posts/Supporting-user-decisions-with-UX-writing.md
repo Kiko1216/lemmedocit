@@ -53,14 +53,12 @@ I asked my colleague about the actual result of each option. Based on this knowl
 
 ### **How is this better?**
 
-1. The copy (next to the new checkbox) now clearly indicates the option to send a cancellation mail. This opens a dedicated panel to customize the mail.
-<figure>
+1. The copy (next to the new checkbox) now clearly indicates the option to send a cancellation mail. This opens a dedicated panel to customize the mail.<figure>
     <img src="/lemmedocit/img/cancel-order-new.png"
          alt="Odoo sales order cancellation modal with improved copy and new UI elements."
          class="glightbox">
     <figcaption>Odoo sales order cancellation modal with improved copy.</figcaption>
 </figure>
-
 
 2. The decision-making flow is now more intuitive and less overwhelming.
     * If the user wants to simply cancel the order, they can click “Cancel order”, without thinking about the mail.
