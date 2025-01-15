@@ -30,7 +30,7 @@ After careful debugging, my colleague figured it was most likely a misclick by a
 I probed further out of curiosity. Turns out, the user made the blunder on encountering the [Odoo](https://www.odoo.com/) sales order cancellation modal below.
 
 <figure>
-    <img src="../../img/cancel-order-original.png"
+    <img src="/lemmedocit/img/cancel-order-original.png"
          alt="Odoo sales order cancellation modal">
     <figcaption>Odoo sales order cancellation modal.</figcaption>
 </figure>
@@ -53,7 +53,7 @@ I asked my colleague about the actual result of each option. Based on this knowl
 
 1. The copy (next to the new checkbox) now clearly indicates the option to send a cancellation mail. This opens a dedicated panel to customize the mail.
 <figure>
-    <img src="../../img/cancel-order-new.png"
+    <img src="/lemmedocit/img/cancel-order-new.png"
          alt="Odoo sales order cancellation modal with improved copy and new UI elements.">
     <figcaption>Odoo sales order cancellation modal with improved copy.</figcaption>
 </figure>
@@ -63,7 +63,7 @@ I asked my colleague about the actual result of each option. Based on this knowl
     * If the user wants to simply cancel the order, they can click “Cancel order”, without thinking about the mail.
     * If the user wants to cancel *and* send a sales order cancellation mail, the copy now indicates the combined option to “Cancel order and send mail”.
     <figure>
-        <img src="../../img/cancel-mail-new.png"
+        <img src="/lemmedocit/img/cancel-mail-new.png"
              alt="Odoo sales order cancellation modal with mail send option.">
         <figcaption>Odoo sales order cancellation modal with mail send option.</figcaption>
     </figure>
