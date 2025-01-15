@@ -34,7 +34,7 @@ I probed further out of curiosity. Turns out, the user made the blunder on encou
          alt="Odoo sales order cancellation modal"
          class="glightbox">
     <figcaption>Odoo sales order cancellation modal.</figcaption>
-</figure></a>
+</figure>
 
 
 ## **Identifying issues**
@@ -56,7 +56,8 @@ I asked my colleague about the actual result of each option. Based on this knowl
 1. The copy (next to the new checkbox) now clearly indicates the option to send a cancellation mail. This opens a dedicated panel to customize the mail.
 <figure>
     <img src="/lemmedocit/img/cancel-order-new.png"
-         alt="Odoo sales order cancellation modal with improved copy and new UI elements.">
+         alt="Odoo sales order cancellation modal with improved copy and new UI elements."
+         class="glightbox">
     <figcaption>Odoo sales order cancellation modal with improved copy.</figcaption>
 </figure>
 
@@ -66,7 +67,8 @@ I asked my colleague about the actual result of each option. Based on this knowl
     * If the user wants to cancel *and* send a sales order cancellation mail, the copy now indicates the combined option to “Cancel order and send mail”.
     <figure>
         <img src="/lemmedocit/img/cancel-mail-new.png"
-             alt="Odoo sales order cancellation modal with mail send option.">
+             alt="Odoo sales order cancellation modal with mail send option."
+             class="glightbox">
         <figcaption>Odoo sales order cancellation modal with mail send option.</figcaption>
     </figure>
     The result of each action is clearly communicated.
