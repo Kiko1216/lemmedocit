@@ -1,3 +1,3 @@
-# **Lemme Doc It - Recent posts**
+# **Recent posts**
 
 This section lists my opinion pieces and personal learnings on technical writing.
