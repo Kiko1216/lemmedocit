@@ -15,9 +15,9 @@ A colleague shared an incident where some sales order cancellation emails were s
 
 After careful debugging, my colleague figured it was most likely a misclick by a user.
 
-I probed further out of curiosity. Turns out, the user made the blunder on encountering the Odoo sales order cancellation modal below.
+I probed further out of curiosity. Turns out, the user made the blunder on encountering the [Odoo](https://www.odoo.com/) sales order cancellation modal below.
 
-![Odoo sales order cancellation modal](img/cancel-order-original.png)
+![Odoo sales order cancellation modal](../../img/cancel-order-original.png)
 
 ## **Identifying issues**
 
@@ -35,15 +35,16 @@ I asked my colleague about the actual result of each option. Based on this knowl
 
 ### **How is this better?**
 
-1. The copy (next to the checkbox) now clearly indicates the option to send a cancellation mail. This opens a dedicated panel to customize the mail.
+1. The copy (next to the checkbox) now clearly indicates the option to send a cancellation mail. This opens a dedicated panel to customize the mail.![Odoo sales order cancellation modal with revised copy](../../img/cancel-order-new.png)
+
 
 2. The decision-making flow is now more intuitive and less overwhelming.
     * If the user wants to simply cancel the order, they can click “Cancel order”, without thinking about the mail.
-    * If the user wants to cancel *and* send a cancellation mail, the copy now indicates the combined option to “Cancel order and send mail”.
+    * If the user wants to cancel *and* send a sales order cancellation mail, the copy now indicates the combined option to “Cancel order and send mail”.![Odoo sales order cancellation modal with mail option](../../img/cancel-mail-new.png)
     
     The result of each action is clearly communicated.
 
-*Disclaimer: This is far from perfect, but I feel it's an improvement over the initial experience.*
+>*Disclaimer: This is far from perfect, but I feel it's an improvement over the initial experience.*
 
 ## **Takeaway** 
 
